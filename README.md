@@ -12,3 +12,6 @@ The project was to create a program where the user enters a svg file and the pro
 Check An0n1mity's repository who's using a FFT library and GTK : https://github.com/An0n1mity/fourier-drawing
 
 I'll see later if I will update this to create a release and add a more user friendly usage
+
++/- -> Increase/Decrease the drawing speed
+UP_Arrow/DOWN_Arrow -> Increase/Decrease the number of circles
