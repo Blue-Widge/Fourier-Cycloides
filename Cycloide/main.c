@@ -3,13 +3,12 @@
 #include "svgparser.h"
 #include "BezierCurve.h"
 #include "complex.h"
-#include "SDL2/SDL.h"
+#include "SDL.h"
 #include "Fourier.h"
 #include <time.h>
 
 int g_nbCircles = 20;
 double g_timeScale = 10.0;
-
 void doInput()
 {
 	SDL_Event event;
@@ -59,13 +58,15 @@ int main(int argc, char* argv[])
 
 	// Load the svg file in memory
 	xmlDocPtr svgfile = PARSER_LoadSVG("fourier.svg");
+	if (!svgfile)
+		return -1;
 
 	// Parse the svg file and create SVG shapes with attributes of the file
 	svgShapeStack* svg_shapes = PARSER_GetShapesFromSVG(svgfile);
 
 	// Transform to mathematical represnetation from svg shapes
 	ShapeAbstract* abstract_shapes = SHAPE_CreateAbstractFromSVG(svg_shapes);
-	ShapePoint* pointsList = SHAPE_GetPointsFromAbstractShapes(abstract_shapes, 0.1f, &nbPoints);
+	ShapePoint* pointsList = SHAPE_GetPointsFromAbstractShapes(abstract_shapes, 0.001f, &nbPoints);
 
 	SDL_Window* window = SDL_CreateWindow("Fourier drawing", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 1024, 720, SDL_WINDOW_OPENGL);
 	SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_SOFTWARE);
@@ -94,7 +95,7 @@ int main(int argc, char* argv[])
 	while (1)
 	{
 		currentTime = (double)(clock() - startTime) / ((double)CLOCKS_PER_SEC * g_timeScale);
-		if (currentTime >= 1.0 || prevTimeScale != g_timeScale)
+		if (currentTime >= 2.0 || prevTimeScale != g_timeScale)
 		{
 			startTime = clock();
 			SHAPE_FreePoints(drawPointList);

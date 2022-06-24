@@ -1,7 +1,96 @@
-﻿  main.c
-D:\Codes\PST Fourier\svg_parser\Cycloide\complex.h(141,38): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
-D:\Codes\PST Fourier\svg_parser\Cycloide\complex.h(141,64): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
-D:\Codes\PST Fourier\svg_parser\Cycloide\complex.h(141,94): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
-D:\Codes\PST Fourier\svg_parser\Cycloide\complex.h(141,120): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
-D:\Codes\PST Fourier\svg_parser\Cycloide\main.c(56,12): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Cycloide.vcxproj -> D:\Codes\PST Fourier\svg_parser\Debug\Cycloide.exe
+﻿  BezierCurve.c
+D:\Cours\Fourier-Cycloids\Cycloide\BezierCurve.c(47,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\BezierCurve.c(52,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  complex.c
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,38): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,64): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,94): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,120): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  Fourier.c
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,38): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,64): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,94): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,120): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(12,84): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(37,69): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(37,95): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(41,40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(41,66): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(81,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(81,61): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(82,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(82,61): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(83,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(83,61): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(84,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(84,61): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(85,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(85,61): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(86,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(86,61): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(87,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(87,61): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(88,45): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(88,61): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\Fourier.c(131,42): warning C4244: 'initializing': conversion from 'double' to 'size_t', possible loss of data
+  main.c
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,38): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,64): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,94): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\complex.h(141,120): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\main.c(55,12): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  pathparser.c
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(69,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(70,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(97,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(132,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(133,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(137,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(138,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(189,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(190,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(193,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(194,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(197,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(198,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(53,22): warning C4244: 'initializing': conversion from 'uint64_t' to 'int', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(45,43): warning C4101: 'x4': unreferenced local variable
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(45,39): warning C4101: 'y3': unreferenced local variable
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(45,35): warning C4101: 'x3': unreferenced local variable
+D:\Cours\Fourier-Cycloids\Cycloide\pathparser.c(45,47): warning C4101: 'y4': unreferenced local variable
+  shapes.c
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(136,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(138,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(140,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(142,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(144,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(146,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(213,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(215,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(217,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(258,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(260,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(262,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(264,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(305,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(307,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(309,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(311,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(344,58): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(387,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(395,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(468,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(475,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(664,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(666,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(669,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(671,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(695,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(702,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(757,13): warning C4101: 'readed_char': unreferenced local variable
+  svgparser.c
+D:\Cours\Fourier-Cycloids\Cycloide\svgparser.c(144,51): warning C4090: '=': different 'const' qualifiers
+  Generating Code...
+D:\Cours\Fourier-Cycloids\Cycloide\shapes.c(1106): warning C4715: 'SHAPE_GetPointsFromAbstractShape': not all control paths return a value
+MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Cycloide.vcxproj -> D:\Cours\Fourier-Cycloids\Debug\Cycloide.exe

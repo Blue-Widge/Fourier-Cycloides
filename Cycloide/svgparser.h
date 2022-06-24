@@ -5,8 +5,8 @@
 #ifndef CYCLOIDE_SVGPARSER_H
 #define CYCLOIDE_SVGPARSER_H
 
-#include <libxml/tree.h>
 #include <libxml/parser.h>
+#include <libxml/tree.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>

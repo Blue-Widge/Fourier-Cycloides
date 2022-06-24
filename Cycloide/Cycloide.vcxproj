@@ -72,13 +72,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Codes\PST Fourier\svg_parser\packages\sdl2_x86-windows\include\SDL2;D:\Programmes\vcpkg\installed\x86-windows\include;D:\Codes\PST Fourier\svg_parser\SDL2-2.0.16\include;C:\Users;D:\Codes\PST Fourier\svg_parser\packages\libxml2.2.7.8.7\build\native\include\libxml;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Codes\PST Fourier\svg_parser\packages\sdl2_x86-windows\lib;D:\Codes\PST Fourier\svg_parser\packages\sdl2_x86-windows\lib\manual-link;D:\Programmes\vcpkg\installed\x86-windows\lib;D:\Programmes\vcpkg\installed\x86-windows\lib\manual-link;D:\Codes\PST Fourier\svg_parser\SDL2-2.0.16\lib\x86;D:\Codes\PST Fourier\svg_parser\packages\libxml2.2.7.8.7\build\native\lib\v110\Win32\Debug\dynamic\cdecl;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\packages\vcpkgFiles\include\SDL2;..\packages\libxml2.2.7.8.7\build\native\include\libxml;..\packages\vcpkgFiles\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\packages\vcpkgFiles\lib\manual-link;..\packages\vcpkgFiles\lib;..\packages\libxml2.redist.2.7.8.7\build\native\bin\v110\Win32\Debug\dynamic\cdecl;..\packages\libxml2.2.7.8.7\build\native\lib\v110\Win32\Debug\dynamic\cdecl;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>D:\Codes\PST Fourier\svg_parser\packages\sdl2_x86-windows\include\SDL2;D:\Programmes\vcpkg\installed\x86-windows\include;D:\Codes\PST Fourier\svg_parser\SDL2-2.0.16\include;C:\Users;D:\Codes\PST Fourier\svg_parser\packages\libxml2.2.7.8.7\build\native\include\libxml;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Codes\PST Fourier\svg_parser\packages\sdl2_x86-windows\lib;D:\Codes\PST Fourier\svg_parser\packages\sdl2_x86-windows\lib\manual-link;D:\Programmes\vcpkg\installed\x86-windows\lib;D:\Programmes\vcpkg\installed\x86-windows\lib\manual-link;D:\Codes\PST Fourier\svg_parser\SDL2-2.0.16\lib\x86;D:\Codes\PST Fourier\svg_parser\packages\libxml2.2.7.8.7\build\native\lib\v110\Win32\Debug\dynamic\cdecl;$(LibraryPath)</LibraryPath>
+    <IncludePath>.\packages\vcpkgFiles\include\SDL2;.\packages\libxml2.2.7.8.7\build\native\include\libxml;.\packages\vcpkgFiles\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\packages\vcpkgFiles\lib\manual-link;.\packages\vcpkgFiles\lib;.\packages\libxml2.redist.2.7.8.7\build\native\bin\v110\Win32\Debug\dynamic\cdecl;.\packages\libxml2.2.7.8.7\build\native\lib\v110\Win32\Debug\dynamic\cdecl;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -90,7 +90,7 @@
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <VcpkgInstalledDir>..\..\..\..\Programmes\vcpkg\installed\x86-windows</VcpkgInstalledDir>
+    <VcpkgInstalledDir>..\packages\vcpkgFiles</VcpkgInstalledDir>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <VcpkgInstalledDir>..\..\..\..\Programmes\vcpkg\installed\x86-windows</VcpkgInstalledDir>
@@ -101,12 +101,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Programmes\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\packages\vcpkgFiles\include\SDL2;..\packages\vcpkgFiles\include;..\packages\libxml2.2.7.8.7\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>libxml2.lib;SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\packages\libxml2.2.7.8.7\build\native\lib\v110\Win32\Debug\dynamic\cdecl;..\packages\libxml2.redist.2.7.8.7\build\native\bin\v110\Win32\Debug\dynamic\cdecl;.\packages\vcpkgFiles\lib\manual-link;..\packages\vcpkgFiles\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -117,7 +118,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Programmes\vcpkg\installed\x86-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\packages\vcpkgFiles\include\SDL2;.\packages\vcpkgFiles\include;.\packages\libxml2.2.7.8.7\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

@@ -3,7 +3,7 @@
 
 #include "BezierCurve.h"
 #include "complex.h"
-#include "SDL2/SDL.h"
+#include "SDL.h"
 
 #define PI 3.14159265358979323846
 
